@@ -19,6 +19,7 @@ body {
     background-image: url("../images/morocco.png");
     margin: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
 }
 .setwidth {
     width: 960px;
@@ -34,6 +35,10 @@ nav a {
     color: #777;
     text-decoration: none;
     padding: 5px;
+}
+a {
+    color: #4aaaa5;
+    text-decoration: none;
 }
 .clearfix::after {
     content: "";
