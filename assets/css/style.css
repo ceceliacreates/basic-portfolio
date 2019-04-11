@@ -11,12 +11,11 @@ header {
     font-size: 24px;
     float: left;
 }
-#myname, h2 {
+#myname, h2, h3 {
     font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 body {
-    padding: 0px;
     background-image: url("../images/morocco.png");
     margin: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -46,20 +45,18 @@ nav a {
     margin-right: 15px;
     border: 1px solid #4aaaa5;
 }
-article, h2, hr {
-    padding: 
-}
+
 footer {
     background: #666;
     text-align: center;
     color: white;
     border-top: solid #4aaaa5 8px;
     padding: 5px;
+    /*
     height: 40px;
     position: fixed;
-    bottom: 0px;
-    right: 0px;
-    width: 100%;
+    bottom: 0px;*/
+
 }
 .wrapper {
     border-top: solid 2px #ccc;
@@ -68,6 +65,7 @@ footer {
   padding: 20px;
   box-sizing: border-box; 
   margin-top: 30px;
+  margin-bottom: 30px;
   border: solid 1px #ddd;
 }
 h2 {
@@ -90,4 +88,23 @@ button {
     color: white;
     padding: 10px 15px 10px 15px;
     border: none;
+}
+.gallery {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+.gallerywrap {
+    position: relative;
+    display: inline;
+}
+h3 {
+    background: #44aaa5;
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    padding: 15px 0px;
+    bottom: 15px;
+    left: 20px;
+    color: white;
 }
