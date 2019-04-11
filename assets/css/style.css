@@ -56,6 +56,10 @@ footer {
     border-top: solid #4aaaa5 8px;
     padding: 5px;
     height: 40px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
 }
 .wrapper {
     border-top: solid 2px #ccc;
@@ -68,8 +72,22 @@ footer {
 }
 h2 {
     padding-top: 0px;
+    color: #4aaaa5;
 }
-.container {
-    min-height: 100%;
-    margin-bottom: 41px;
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0px;
+}
+input {
+    padding: 5px 0px;
+}
+textarea {
+    padding: 40px 0px;
+}
+button {
+    background: #4aaaa5;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
 }
